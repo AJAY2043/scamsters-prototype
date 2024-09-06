@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Blogs.css';
-import blogsData from '../Data/blogsData.json';
+import blogsData from '../Data/blogsData.json'; // Importing the JSON file
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch('/Data/blogsData.json')
-      .then((response) => response.json())
-      .then((data) => setBlogs(data));
+    setBlogs(blogsData); // Directly set the blogs from the imported data
   }, []);
 
   return (
