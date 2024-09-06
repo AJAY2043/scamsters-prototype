@@ -1,0 +1,56 @@
+/* Resetting default styles to create a consistent baseline across browsers */
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set base font size and remove list-style and text-decoration */
+  html, body {
+    height: 100%;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Ensure buttons inherit fonts */
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  /* Reset images and videos */
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Remove default table borders */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Reset input elements */
+  input, textarea, select {
+    font-family: inherit;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  /* Reset headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.2;
+  }
+  

@@ -1,0 +1,107 @@
+.supportus-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f4f7; /* Light background */
+  }
+  
+  .supportus-header h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .supportus-header p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 10px 0 30px;
+  }
+  
+  .supportus-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Financial Support Section */
+  .financial-support {
+    background-color: #d1e7dd;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .financial-support h3 {
+    color: #1a7431;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+  }
+  
+  .payment-option {
+    text-align: center;
+  }
+  
+  .payment-option i {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .payment-option p {
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  /* Technical Support Section */
+  .technical-support {
+    background-color: #fce7f3;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .technical-support h3 {
+    color: #c2185b;
+  }
+  
+  .tech-contributors ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tech-contributors li {
+    color: #c2185b;
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  /* Strategic Support Section */
+  .strategic-support {
+    background-color: #fef9c3;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .strategic-support h3 {
+    color: #d97706;
+  }
+  
+  .appointment-support p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .supportus-options {
+      grid-template-columns: 1fr;
+    }
+  
+    .payment-methods {
+      flex-direction: column;
+    }
+  }
+  

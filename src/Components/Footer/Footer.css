@@ -1,0 +1,93 @@
+/* General footer styling */
+.footer {
+  background: linear-gradient(135deg, #3a7bd5, #00d2ff); /* Blue gradient background */
+  color: #fff; /* White text color */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 1.5rem; /* Increased size for icons */
+  transition: color 0.3s ease; /* Smooth color change */
+}
+
+.social-icon:hover {
+  color: #ff4081; /* Pink color on hover */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .social-icon {
+    font-size: 1.2rem; /* Slightly smaller icon size for mobile */
+  }
+}

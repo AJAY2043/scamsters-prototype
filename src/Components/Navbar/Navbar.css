@@ -1,0 +1,180 @@
+/* Navbar container */
+.navbar {
+  width: 100%;
+  background: linear-gradient(135deg, #a2c2e8, #b9d9c1); /* Gradient background */
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main navigation styling */
+.main-nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/* Horizontal rule to separate main-nav and subnav */
+.navbar hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #000; /* Black line for separation */
+  margin: 10px 0; /* Space above and below */
+}
+
+/* Nav title (brand) styling */
+.nav-title h2 {
+  color: #000; /* Black text color */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.nav-title h2:hover {
+  color: #ff69b4; /* Light pink for hover effect */
+}
+
+/* Search bar */
+.nav-search input {
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+  width: 200px;
+  transition: all 0.3s ease;
+  color: #000; /* Black text color */
+}
+
+.nav-search input:focus {
+  width: 250px;
+  border-color: #ff69b4; /* Light pink border on focus */
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* Pink glow */
+}
+
+/* Search button */
+.nav-search button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+.nav-search button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Nav links */
+.main-nav a {
+  color: #000; /* Black text color */
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #ff69b4; /* Light pink hover color */
+}
+
+.main-nav h3 {
+  margin: 0;
+}
+
+/* Nav login button */
+.nav-login a {
+  padding: 8px 16px;
+  background-color: #98FB98; /* Light pale green */
+  border-radius: 20px;
+  color: #000; /* Black text color */
+  font-size: 0.9rem;
+}
+
+.nav-login a:hover {
+  background-color: #7CFC00; /* Light green on hover */
+}
+
+/* Subnav container */
+.subnav {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 0;
+}
+
+/* Sub-navbar list */
+.sub-navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sub-navbar items */
+.sub-navbar li {
+  font-size: 0.9rem;
+  color: #000; /* Black text color */
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+/* Icons in sub-navbar */
+.sub-navbar li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.sub-navbar li:hover {
+  color: #ff69b4; /* Light pink hover color */
+}
+
+/* Active link styles */
+.sub-navbar a.active h4 {
+  color: #ff69b4; /* Active link color */
+  font-weight: bold;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .nav-search input {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .nav-login a {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .sub-navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sub-navbar li {
+    margin-bottom: 10px;
+  }
+}

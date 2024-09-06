@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "category": "Lawyers",
+      "name": "Krishna kumar",
+      "age": 45,
+      "experience": "20 years",
+      "charges": "₹5000/hour",
+      "mobile": "9876543210",
+      "email": "krishnakumar@example.com",
+      "image": "lawyer1.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Lawyers",
+      "name": "Vamsi rao",
+      "age": 39,
+      "experience": "15 years",
+      "charges": "₹4500/hour",
+      "mobile": "8765432109",
+      "email": "vamsirao@example.com",
+      "image": "lawyer2.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Lawyers",
+      "name": "Kishore kumar",
+      "age": 50,
+      "experience": "25 years",
+      "charges": "₹6000/hour",
+      "mobile": "7654321098",
+      "email": "kishorekumar@example.com",
+      "image": "lawyer3.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Detectives",
+      "name": "Agent Vikram",
+      "age": 40,
+      "experience": "18 years",
+      "charges": "₹7000/day",
+      "mobile": "6543210987",
+      "email": "vikram.detective@example.com",
+      "image": "detective1.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Detectives",
+      "name": "Srinu Reddy",
+      "age": 37,
+      "experience": "12 years",
+      "charges": "₹6500/day",
+      "mobile": "5432109876",
+      "email": "srinureddy.spy@example.com",
+      "image": "detective2.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Detectives",
+      "name": "Nithin kumar",
+      "age": 45,
+      "experience": "20 years",
+      "charges": "₹7500/day",
+      "mobile": "4321098765",
+      "email": "nithin.investigator@example.com",
+      "image": "detective3.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Consultants",
+      "name": "Vijay krishna",
+      "age": 48,
+      "experience": "22 years",
+      "charges": "₹4000/hour",
+      "mobile": "3210987654",
+      "email": "vijay.consultant@example.com",
+      "image": "consultant1.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Consultants",
+      "name": "Ganga rao",
+      "age": 42,
+      "experience": "16 years",
+      "charges": "₹3500/hour",
+      "mobile": "2109876543",
+      "email": "ganga.advisor@example.com",
+      "image": "consultant2.jpg"
+    },
+    {
+      "id": 9,
+      "category": "Consultants",
+      "name": "Durga Rao",
+      "age": 50,
+      "experience": "25 years",
+      "charges": "₹4500/hour",
+      "mobile": "1098765432",
+      "email": "durga.strategy@example.com",
+      "image": "consultant3.jpg"
+    }
+  ]
+  

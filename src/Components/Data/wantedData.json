@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Vijay Mital",
+      "age": 35,
+      "gender": "Male",
+      "wantedBy": "Police",
+      "affiliation": "Tech Company",
+      "scamDescription": "Embezzled company funds amounting to $500,000.",
+      "reward": "Up to $50,000"
+    },
+    {
+      "id": 2,
+      "name": "Lakshmi sree",
+      "age": 29,
+      "gender": "Female",
+      "wantedBy": "Apollo Hospitals",
+      "affiliation": "Healthcare Organization",
+      "scamDescription": "Fraudulently billed insurance companies for non-existent services.",
+      "reward": "Up to $30,000"
+    },
+    {
+      "id": 3,
+      "name": "Srinivasrao",
+      "age": 42,
+      "gender": "Male",
+      "wantedBy": "Police",
+      "affiliation": "Construction Firm",
+      "scamDescription": "Stole construction materials worth $200,000.",
+      "reward": "Up to $20,000"
+    },
+    {
+      "id": 4,
+      "name": "Sudha Sree",
+      "age": 33,
+      "gender": "Female",
+      "wantedBy": "Tech Company",
+      "affiliation": "Tech Startup",
+      "scamDescription": "Leaked confidential data to competitors.",
+      "reward": "Up to $40,000"
+    },
+    {
+      "id": 5,
+      "name": "Ravindra",
+      "age": 38,
+      "gender": "Male",
+      "wantedBy": "Police",
+      "affiliation": "Retail Chain",
+      "scamDescription": "Stole large amounts of merchandise.",
+      "reward": "Up to $25,000"
+    },
+    {
+      "id": 6,
+      "name": "Nirmala",
+      "age": 27,
+      "gender": "Female",
+      "wantedBy": "Apollo Hospitals",
+      "affiliation": "Healthcare Organization",
+      "scamDescription": "Fraudulent claims for medical equipment.",
+      "reward": "Up to $35,000"
+    },
+    {
+      "id": 7,
+      "name": "Sateesh reddy",
+      "age": 45,
+      "gender": "Male",
+      "wantedBy": "Tech Company",
+      "affiliation": "Tech Company",
+      "scamDescription": "Stole intellectual property and sold it to competitors.",
+      "reward": "Up to $55,000"
+    },
+    {
+      "id": 8,
+      "name": "Mounika singh",
+      "age": 31,
+      "gender": "Female",
+      "wantedBy": "Police",
+      "affiliation": "Financial Institution",
+      "scamDescription": "Embezzled funds through fraudulent transactions.",
+      "reward": "Up to $45,000"
+    }
+  ]
+  

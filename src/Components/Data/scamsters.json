@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "name": "Ravi Kumar",
+      "age": 45,
+      "gender": "Male",
+      "location": "Delhi",
+      "scamType": "Ponzi Scheme",
+      "scamWorth": "₹50 Crores",
+      "description": "Ravi Kumar ran a Ponzi scheme promising high returns to investors, swindling crores from unsuspecting people.",
+      "victims": 1000,
+      "partners": "Sunil Sharma, Anil Yadav",
+      "image": "src/components/assets/scammer-img.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Singh",
+      "age": 32,
+      "gender": "Female",
+      "location": "Mumbai",
+      "scamType": "Credit Card Fraud",
+      "scamWorth": "₹10 Lakhs",
+      "description": "Priya Singh stole credit card information and made unauthorized purchases, impacting over 200 people.",
+      "victims": 200,
+      "partners": "Rahul Verma",
+      "image": "src/components/assets/scammer-img.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rajesh Gupta",
+      "age": 50,
+      "gender": "Male",
+      "location": "Chennai",
+      "scamType": "Real Estate Scam",
+      "scamWorth": "₹80 Crores",
+      "description": "Rajesh sold fake real estate properties to hundreds of buyers, pocketing huge sums of money.",
+      "victims": 500,
+      "partners": "None",
+      "image": "src/components/assets/scammer-img.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pooja Nair",
+      "age": 40,
+      "gender": "Female",
+      "location": "Bangalore with Vijay Kumar.",
+      "scamType": "Investment Scam",
+      "scamWorth": "₹25 Crores",
+      "description": "Pooja promised large returns on fake investments, scamming many high-profile clients.",
+      "victims": 250,
+      "partners": "Vijay Kumar",
+      "image": "src/components/assets/scammer-img.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Amit Sharma",
+      "age": 38,
+      "gender": "Male",
+      "location": "Hyderabad",
+      "scamType": "Job Fraud",
+      "scamWorth": "₹5 Crores",
+      "description": "Amit posed as a job consultant and collected money from job seekers in exchange for fake job offers.",
+      "victims": 500,
+      "partners": "None",
+      "image": "src/components/assets/scammer-img.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Neha Joshi",
+      "age": 28,
+      "gender": "Female",
+      "location": "Pune",
+      "scamType": "Online Shopping Fraud",
+      "scamWorth": "₹15 Lakhs",
+      "description": "Neha set up fake online shopping websites and took payments without delivering goods.",
+      "victims": 100,
+      "partners": "Shivraj Chauhan",
+      "image": "src/components/assets/scammer-img.jpg"
+    }
+  ]
+  

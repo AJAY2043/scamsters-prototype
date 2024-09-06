@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FF6F61, #D7A2C8);
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .wanted-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wanted-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wanted-container p {
+    margin-bottom: 20px;
+  }
+  
+  .wanted-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .wanted-card {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+  }
+  
+  .wanted-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .wanted-card p {
+    margin-bottom: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .wanted-card {
+      width: 100%;
+    }
+  }
+  

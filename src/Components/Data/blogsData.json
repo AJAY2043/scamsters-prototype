@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "Bank Scams: The New Face of Financial Fraud",
+      "date": "September 1, 2024",
+      "description": "Bank frauds in India are on the rise, with scammers tricking customers into revealing their OTPs, passwords, or making fake loan offers. These scams have caused people to lose their entire life savings in a matter of seconds.",
+      "image": "bank-scam.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Crypto Scams: The Dark Side of Digital Currency",
+      "date": "August 25, 2024",
+      "description": "With the growing popularity of Bitcoin and other cryptocurrencies, scammers have found new ways to dupe investors. From fake crypto exchanges to Ponzi schemes, the crypto world is filled with risks that are often ignored.",
+      "image": "crypto-scam.jpg"
+    },
+    {
+      "id": 3,
+      "title": "ATM Frauds: How Thieves Empty Your Bank Account",
+      "date": "August 20, 2024",
+      "description": "ATM frauds often involve cloning ATM cards or tricking people into using tampered machines. This can result in fraudulent transactions, wiping out savings without the victim even knowing.",
+      "image": "atm-scam.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Honeytrap Scams: Love, Lies, and Extortion",
+      "date": "August 15, 2024",
+      "description": "Honeytrap scams have led to the extortion of thousands. Scammers lure victims into intimate online relationships and later threaten to expose private conversations, demanding large sums of money in return for silence.",
+      "image": "honeytrap-scam.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Mobile Scams: The Tricks Hidden in Your Handset",
+      "date": "August 10, 2024",
+      "description": "Mobile frauds involve hackers getting access to your phone, be it through malware, phishing, or SIM card swaps. Once inside, they can drain your bank accounts or misuse your personal information.",
+      "image": "mobile-scam.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Blackmail Scams: When Privacy Becomes a Weapon",
+      "date": "August 5, 2024",
+      "description": "Blackmailers use sensitive information or compromising content to extort money from victims. This can include stolen personal photos, videos, or even documents.",
+      "image": "blackmail-scam.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Insurance Frauds: Deceiving the System for Money",
+      "date": "July 30, 2024",
+      "description": "Insurance frauds range from fake injury claims to inflated repair costs, with scammers faking accidents or damage to get money from insurance companies.",
+      "image": "insurance-scam.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Loan Frauds: False Promises of Quick Loans",
+      "date": "July 25, 2024",
+      "description": "Loan frauds involve scammers offering loans with no paperwork or verification. Victims are asked to pay an upfront fee, only to discover the loan never existed.",
+      "image": "loan-scam.jpg"
+    }
+  ]
+  

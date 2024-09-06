@@ -1,0 +1,59 @@
+.hire-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hire-btn {
+    margin-bottom: 20px;
+  }
+  
+  .hire-btn button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .hire-btn button:hover {
+    background-color: #45a049;
+  }
+  
+  .hire-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .hire-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hire-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hire-info h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .hire-info p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hire-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

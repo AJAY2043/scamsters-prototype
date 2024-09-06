@@ -1,0 +1,58 @@
+/* CallToAction.css */
+
+/* General container styling for the CTA section */
+.cta-section {
+    padding: 20px;
+    background: linear-gradient(135deg, #ff6f61, #d83f6b);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  
+  .cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #fff;
+    background: linear-gradient(135deg, #ff6f61, #d83f6b);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: linear-gradient(135deg, #d83f6b, #ff6f61);
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .cta-title {
+      font-size: 1.5rem;
+    }
+  
+    .cta-text {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 8px 15px;
+    }
+  }
+  

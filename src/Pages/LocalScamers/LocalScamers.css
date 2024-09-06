@@ -1,0 +1,97 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #FF416C, #FF4B2B);
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.add-scammer-button {
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-scammer-button:hover {
+  background-color: #0056b3;
+}
+
+.filter-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-section input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  max-width: 400px;
+}
+
+.scamsters-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.scamster-card {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.scamster-card:hover {
+  transform: translateY(-10px);
+}
+
+.scamster-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.scamster-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.scamster-card p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .filter-section input {
+    width: 90%;
+  }
+
+  .scamster-img {
+    height: 150px;
+  }
+}

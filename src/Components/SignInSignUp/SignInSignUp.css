@@ -1,0 +1,86 @@
+/* Main container for login/signup section */
+.loginsignup {
+    width: 100%;
+    min-height: 80vh; /* Adjusted for responsiveness */
+    background: #fce3fe;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Container for the form */
+.loginsignup-container {
+    width: 100%;
+    max-width: 580px; /* Maximum width for larger screens */
+    background: #fff; /* Fixed background color */
+    padding: 40px 60px;
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+}
+
+/* Heading styling */
+.loginsignup-container h1 {
+    margin: 20px 0;
+    text-align: center; /* Center the heading */
+}
+
+/* Input fields container */
+.loginsignup-fileds {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Input field styling */
+.loginsignup-fileds input {
+    height: 50px; /* Adjusted height for better fit */
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+/* Button styling */
+.loginsignup-container button {
+    width: 100%;
+    height: 50px; /* Adjusted height */
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px; /* Adjusted font size */
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for button */
+}
+
+/* Login link styling */
+.loginsignup-login {
+    margin: 20px 0;
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    font-weight: 500;
+    text-align: center; /* Center the text */
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+}
+
+/* Agreement section styling */
+.loginsignup-agreee {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px; /* Reduced gap */
+    color: #5c5c5c;
+    font-size: 16px; /* Adjusted font size */
+    font-weight: 500;
+}

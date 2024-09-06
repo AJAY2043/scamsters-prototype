@@ -1,0 +1,64 @@
+/* HelpLines.css */
+
+.helplines-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .helplines-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .helpline-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .helpline-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .helpline-card p {
+    margin: 5px 0;
+  }
+  
+  .helpline-card .faPhone,
+  .helpline-card .faEnvelope {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .filter-container select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .helplines-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .helplines-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FF6F61, #D7A2C8);
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .prove-scam-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prove-scam-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prove-scam-container p {
+    margin-bottom: 20px;
+  }
+  
+  .prove-scam-container h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .prove-scam-container ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .prove-scam-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .prove-scam-container form label {
+    margin-bottom: 15px;
+  }
+  
+  .prove-scam-container form input, 
+  .prove-scam-container form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .prove-scam-container form button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .prove-scam-container form button:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .prove-scam-container {
+      padding: 20px;
+    }
+  
+    .prove-scam-container form input, 
+    .prove-scam-container form textarea {
+      font-size: 0.9rem;
+    }
+  }
+  
